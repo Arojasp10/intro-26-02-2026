@@ -30,3 +30,11 @@ with col2:
     st.write("el audio es lo fundamental de tu interfaz")
   if modo == "tactil":
     st.write("El tacto es lo fundamental de tu interfaz")
+
+st.subheader("Uso de botones")
+if st.button('Presiona el botón'):
+  st.write('Gracias por presionar')
+
+else:
+  st.write('No has presionado aún')
+  
