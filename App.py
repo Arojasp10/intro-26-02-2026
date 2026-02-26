@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL import image
+from PIL import Image
 
 st.title("Esta es mi primera app en la nube")
 st.header("En este espacio va un texto largo")
